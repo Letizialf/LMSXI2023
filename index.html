@@ -59,7 +59,8 @@
         <blockquote> <!--Outra especie de maneira de citación-->
             Future is in your hands
         </blockquote>
-        <table> <!--Para facer tablas-->
+        <table border = "1"> <!--Para facer tablas--> <!--O BORDER está TOTALMENTE PROHIBIDO cando empecemos con CSS-->
+            <caption>STUDENTS</caption>
             <thead> <!--Cabeceira da tabla-->
                 <tr> <!--Filas da tabla-->
                    <th>name</th>
@@ -72,14 +73,44 @@
                 
             </thead>
             <tbody>
-               <tr>MANUEL</tr>
-               <tr>Alvarez</tr>
-               <tr>Gomez</tr>
-               <tr>32</tr>
-               <tr>Spain</tr>
-               <tr>75638496S</tr> 
+                <tr>
+                    <td rowspan="2">Manuel</td>
+                     <td>Alvarez</td>
+                    <td>Gomez</td>
+                    <td>32</td>
+                    <td rowspan="4">Spain</td>
+                    <td>75638496S</td>
+                 </tr>
+                 <tr>
+                    <td>Alvarez</td>
+                    <td>Gomez</td>
+                    <td>32</td>
+                    <td>75638496S</td>
+                 </tr>
+                
+                 <tr>
+                    <td>Adrián</td>
+                    <td>Pouso</td>
+                    <td>Pouso</td>
+                    <td>17</td>
+                    <td>54647854P</td>
+                 </tr>
+                 <tr>
+                    <td>Laura</td>
+                    <td>Gómez</td>
+                    <td>Pardo</td>
+                    <td>23</td>
+                    <td>65847934D</td>
+                 </tr>
+
             </tbody>
             <tfoot>
+                <td>
+                    <th>
+                        Cantidade
+                    </th>
+                </td>
+               
 
             </tfoot>
         </table>
