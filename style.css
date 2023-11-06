@@ -1,0 +1,33 @@
+*{
+
+}
+
+h1{
+    background-color: blanchedalmond;
+    color: darkslateblue;
+    font-family:'Lato', sans-serif;
+    padding: 1.5em;
+    margin: 0px;
+}
+p{
+    background-color: bisque;
+
+}
+/*BUSCARME A VIDA PARA CONSEGUIR O QUE SE FIXO O VIERNES 3 DE NOVEMBRO*/
+a:link{
+    color:deeppink;
+}
+a:visited{
+    color:aqua;
+}
+a:hover{
+    color:crimson;
+}
+a:active{
+    color:aquamarine;
+}
+/*Se quero que varias etiquetas teñan o mesmos CSS podemos poñelas así:
+h1,h2{
+    css pertinente
+}                       */
+
